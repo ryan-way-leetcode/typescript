@@ -13,7 +13,8 @@
   "devDependencies": {},
   "scripts": {
     "start": "ts-node ./",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ts-node node_modules/jasmine/bin/jasmine --config=jasmine.json",
+    "coverage": "nyc -r text -e .ts -x  \"tests/*.test.ts\" npm run test"
   },
   "repository": {
     "type": "git",
