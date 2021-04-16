@@ -2,14 +2,19 @@
   "name": "typescript",
   "version": "1.0.0",
   "description": "leetcode problems solved in typescript",
-  "main": "dist/main.js",
+  "main": "src/main.ts",
   "dependencies": {
+    "@types/jasmine": "^3.6.9",
+    "jasmine": "^3.7.0",
+    "nyc": "^15.1.0",
+    "ts-node": "^9.1.1",
     "typescript": "^4.2.4"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "tsc && node dist/main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node ./",
+    "test": "ts-node node_modules/jasmine/bin/jasmine --config=jasmine.json",
+    "coverage": "nyc -r text -e .ts -x  \"tests/*.test.ts\" npm run test"
   },
   "repository": {
     "type": "git",
