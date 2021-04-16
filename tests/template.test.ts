@@ -1,13 +1,13 @@
-import MyClass from '../src/template';
+import MyTemplate from '../src/template';
 
 describe('MyClass', function() {
   it('Value', function() {
-    let result = MyClass.Value();
+    let result = MyTemplate.Value();
     expect(result).toBe(32);
   });
 
   it('AnotherValue', function() {
-    let result = MyClass.AnotherValue();
+    let result = MyTemplate.AnotherValue();
     expect(result).toBe(40);
   });
 });

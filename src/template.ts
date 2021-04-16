@@ -1,4 +1,4 @@
-export default class MyClass
+export default class MyTemplate
 {
   static Value(): number 
   {
