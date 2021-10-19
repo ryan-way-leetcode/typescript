@@ -1,0 +1,1 @@
+{"processes":{"6ce36786-0ee6-4e04-a519-2813a64155fc":{"parent":"ec6dfc9e-138b-4354-ae75-0b265682ce3a","children":[]},"ec6dfc9e-138b-4354-ae75-0b265682ce3a":{"parent":null,"children":["6ce36786-0ee6-4e04-a519-2813a64155fc"]}},"files":{"/home/rway/personal/leetcode_projects/typescript/src/template.ts":["6ce36786-0ee6-4e04-a519-2813a64155fc"]},"externalIds":{}}
